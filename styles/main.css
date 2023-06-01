@@ -1,0 +1,122 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/img/fondoOscuro.jpg');
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1px;
+   
+}
+
+.lightMode{
+    background-image: url('../assets/img/fondoOscuro.jpg');
+}
+
+.inicialPresentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url('../assets/img/fondoOscuro.jpg');
+    margin-bottom: 50px;
+    color: white;
+}
+
+.imgPrefil{
+    width: 30%;
+    
+}
+
+footer{
+    background-color: wheat;
+    width: 100%;
+    padding: 30px;
+    margin-top: 20px;
+}
+.contacto{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnsReadMore{
+    width: 900px;
+    margin: 20px 0px 20px 0px;    
+}
+
+.btns:hover{
+    cursor: pointer;
+   }
+.linksStiles{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    border: 1px solid wheat;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: small;
+    margin: 10px 5px 10px 5px;
+    
+}
+.linksStiles:hover{
+    
+    color: black;
+    border: 1px solid black;
+    background-color: rgba(250, 245, 238, 0.096);
+}
+
+/*Genéricos*/
+.clearCoat{
+
+    padding: 20px;
+    background-color: rgba(253, 252, 250, 0.384);
+    color: black;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.listsStyles{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+hr{
+    width: 95%;
+    color: white;
+    font-size: 25px;
+}
+.flex_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_colum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
