@@ -41,6 +41,7 @@ body{
     /*margin-bottom: 50px;*/
     color: white;
     background-color: rgba(250, 245, 238, 0.096);
+    margin-top: 50px;
 }
 
 .imgPrefil{
@@ -113,12 +114,13 @@ footer{
 
 
 .clearCoat{
-
     padding: 20px;
     background-color: rgba(253, 252, 250, 0.384);
     color: black;
     margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 780px;
+    overflow: scroll;
 }
 
 .listsStyles{
@@ -161,6 +163,23 @@ hr{
         justify-content: space-around;
         align-items: center;
     }
+
+    
+.clearCoat{
+    padding: 20px;
+    background-color: rgba(253, 252, 250, 0.384);
+    color: black;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 800px;
+    overflow: auto;
+}
+hr{
+    width: 89%;
+    color: white;
+    font-size: 25px;
+}
+
 }
 
 /*
