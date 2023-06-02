@@ -5,11 +5,12 @@
 
 //btn section front
 const readMoreFrontBtn= document.getElementById('readMoreFrontBtn')
-const frontReadMoreText= document.getElementById('fontReadMoreText')
+const frontReadMoreText= document.getElementById('frontReadMoreText')
 
 readMoreFrontBtn.onclick=()=>{
     frontReadMoreText.classList.toggle('show')
-    frontReadMoreText.classList.toggle('clearCoat')
+    frontReadMoreText.classList.toggle('pStyles')
+    
 
     if(frontReadMoreText.classList.contains('show')){
         readMoreFrontBtn.innerHTML= `<span>Front     -</span>`
@@ -26,7 +27,8 @@ const backReadMoreText= document.getElementById('backReadMoreText')
 
 readMoreBackBtn.onclick=()=>{
     backReadMoreText.classList.toggle('show')
-    backReadMoreText.classList.toggle('clearCoat')
+    backReadMoreText.classList.toggle('pStyles')  
+
     if(backReadMoreText.classList.contains('show')){
         readMoreBackBtn.innerHTML= `<span>Back     -</span>`
     }
@@ -42,7 +44,8 @@ const presReeadMoreText= document.getElementById('presReeadMoreText')
 
 readMorePerfilBtn.onclick=()=>{
     presReeadMoreText.classList.toggle('show')
-    presReeadMoreText.classList.toggle('clearCoat')
+    presReeadMoreText.classList.toggle('pStyles')
+
     if(presReeadMoreText.classList.contains('show')){
         readMorePerfilBtn.innerHTML= `<span>Perfil -</span>`
     }
