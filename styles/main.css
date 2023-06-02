@@ -1,21 +1,31 @@
 body{
-    margin: 0%;
+    margin: 0px;
     padding: 0%;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url('../assets/img/fondoOscuro.jpg');
+   
+    background-image: url('../assets/img/cosmos2.jpg');
+    background-image: url('../assets/img/cosmos1.jpg');
+    background-size: cover;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-family: 'Raleway', sans-serif;
     font-weight: 1px;
    
 }
+.contenedor{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   /* background-image: url('../assets/img/fondoOscuro.jpg');
+    background-size: cover;
+    width: auto;
+    height: 100%;*/
+    margin: 0px;
+    padding: 0px;
 
-.lightMode{
-    background-image: url('../assets/img/fondoOscuro.jpg');
 }
 
 .inicialPresentation{
@@ -27,9 +37,10 @@ body{
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: url('../assets/img/fondoOscuro.jpg');
-    margin-bottom: 50px;
+   /* background-image: url('../assets/img/fondoOscuro.jpg');*/
+    /*margin-bottom: 50px;*/
     color: white;
+    background-color: rgba(250, 245, 238, 0.096);
 }
 
 .imgPrefil{
@@ -42,6 +53,7 @@ footer{
     width: 100%;
     padding: 30px;
     margin-top: 20px;
+    background-color: rgba(250, 245, 238, 0.096);
 }
 .contacto{
     text-decoration: none;
@@ -78,7 +90,28 @@ footer{
     background-color: rgba(250, 245, 238, 0.096);
 }
 
-/*Genéricos*/
+.contactoItem{
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: small;
+    margin: 10px;
+    cursor: pointer;
+  
+}
+.contactoItem:hover{
+    background-color: rgba(250, 245, 238, 0.096);
+}
+.contactoItem a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+
 .clearCoat{
 
     padding: 20px;
@@ -95,23 +128,9 @@ footer{
 }
 
 hr{
-    width: 95%;
+    width: 70%;
     color: white;
     font-size: 25px;
-}
-.flex_row{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.flex_colum{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .hide{
@@ -120,3 +139,72 @@ hr{
 .show{
     display: block;
 }
+
+.flexStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerTexts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+@media(min-width: 770px){
+    .flexStyle{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+/*
+
+@media(max-width:780px){
+    body{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        background-image: url('../assets/img/fondoOscuro.jpg');
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 1px;
+       
+    }
+ 
+    .contenedor{
+        max-width: 798px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .containerTexts{
+        max-width: 798px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    footer{
+        width: 100%;
+        margin-bottom: 0%;
+    }
+   
+    .listPres{
+        width: 60%;
+        padding: 10px;
+        text-align: center;
+    }
+    .flexStyle{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+       
+    }
+}*/

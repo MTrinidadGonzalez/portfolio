@@ -76,7 +76,7 @@ btnDWeb.onclick=()=>{
   
     Swal.fire({
       padding: '0%',
-      width: 850,
+      width: 80,
       buttonConfirmText: "ok",
       confirmButtonColor: 'rgba(54, 48, 48, 0.158)',
       background: 'rgba(54, 48, 48, 0.158)',
@@ -89,7 +89,7 @@ btnDWeb.onclick=()=>{
   btnJS.onclick=()=>{
     Swal.fire({
       padding: '0%',
-      width: 850,
+      width: 80,
       buttonConfirmText: "ok",
       confirmButtonColor: 'rgba(54, 48, 48, 0.158)',
       background: 'rgba(54, 48, 48, 0.158)',
