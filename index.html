@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trinidad</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <!--font links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@200&family=Playfair+Display:wght@500&family=Raleway:wght@200&family=Sofia+Sans:ital,wght@1,1&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+  <div class="inicio">
+  <!--title-->
+  <div class="container-title">
+    <span>I'm</span>
+    <h2> Trinidad González</h2>
+    <h1>FULL STACK DEVELOPER</h1>
+    <span>MERN</span>
+    <span id="open-certifications" class="btns-links">Certificados</span>
+  <!--cierre container title-->
+  </div>
+<!--presentacion section-->
+<section class="presentation-section">
+  <div class="container-img-profile">
+    <video  type="video/mp4"  id="video-avatar" class="video-avatar"  autoplay loop muted >
+      <source src="./assets/videos/camperaBlanca (2).mp4">
+  </video>
+  <h5>About me</h5>
+  </div>
+  <!--alert presentacion-->
+  <div id="presentation-container-text" class="display-none"> 
+    <button id="btn-close-presentation" class="btn-close-presentation">X</button>
+    <div>
+    <p>Profesorado en educación primaria</p>
+    <p>Full-stack developer. Stack MERN</p>
+    <p>TypeScript - SQL (cursando)</p>
+    <p>Ingles nivel intermedio</p>
+    <p>Aprendizaje contínuo</p>
+    <p>Trabajo colaborativo</p>
+    <p>Compromiso y responsabilidad</p>
+    <div class="contact-container-btns"><a href="" class="btns-links">Contacto</a><a href=""  class="btns-links">ok</a></div>
+    </div>
+  </div>
+</section>
+    
+<!--cierre presentacion dentro de header, title- foto-->
+</div> 
+    
+
+<!--alerta certificados-->
+    <div class="display-none" id="certifications-container">
+        <button id="close-certifications">X</button>
+        <div class="crtifications" id="crtifications">
+            <div id="carouselExample" class="carousel slide m-3">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/img/certificado-carrera.png" class="d-block w-100 img-certificado" alt="Certificado carrera full-sttack">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/certificado-back.png" class="d-block w-100 img-certificado" alt="Certificado backend">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/certificadoReact.png" class="d-block w-100 img-certificado" alt="Certificado react">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div> 
+  </header>
+
+
+ <section class="projects-section" id="projects-section">
+  <h2 id="projects-title">Projects</h2>
+  <!--project a-->
+  <div class="project">
+    <div class="child-project">
+      <video class="video-project" type="video/mp4" muted controls>
+        <source src="/assets/videos/oficios.mp4">
+      </video>
+    </div>
+
+    <div class="child-project">
+      <p>
+        Esta aplicación fue desarrollada utilizando React.js en el 
+        frontend y Node.js en el servidor. Se trata de una plataforma 
+        que facilita la conexión entre personas que ofrecen servicios 
+        y oficios y aquellas que buscan contratarlos. Los usuarios 
+        tienen la capacidad de filtrar por proximidad geográfica y 
+        comunicarse en tiempo real a través de mensajería, gracias a 
+        la integración de la biblioteca socket.
+        </p>
+        <span class="spam-aclaracion">Puede que las imágenes de la vista no se muestren por políticas de Render.com</span>
+
+    <div>
+      <a href="https://oficio-client.onrender.com/" target="_blank" class="btns-projects">VIEW</a>
+      <a href="https://github.com/MTrinidadGonzalez/oficios-server"  target="_blank"  class="btns-projects"><ion-icon name="code-slash-outline"></ion-icon></a> 
+    </div>
+
+    </div>
+  </div>
+ <!--project b-->
+ <div class="project">
+  
+  <div class="child-project">
+    <p>
+      Circular CarlaXena opera como una tienda circular que permite 
+      el intercambio de mensajes entre vendedores y compradores. 
+      La aplicación utiliza React.js en el lado del cliente y Node.js 
+      en el lado del servidor, con una base de datos en MongoDb. 
+      Los usuarios pueden filtrar productos por categoría y ubicación 
+      geográfica cercana para facilitar las transacciones.
+    </p>
+    <span class="spam-aclaracion">Puede que las imágenes de la vista no se muestren por políticas de Render.com</span>
+
+    <div class="contact-container-btns">
+      <a href="https://ccx-client.onrender.com/" class="btns-projects"  target="_blank" >VIEW</a>
+      <a href="https://github.com/MTrinidadGonzalez/ccx-server" class="btns-projects"  target="_blank"><ion-icon name="code-slash-outline"></ion-icon></a>
+    </div>
+  </div>
+  
+  <div class="child-project">
+    <video class="video-project" type="video/mp4" muted controls>
+      <source src="/assets/videos/ccx.mp4">
+    </video>
+  </div>
+ <!--cierre div project 2-->
+</div>
+ 
+<!--cierre section 1-->
+</section>
+ 
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" ></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>
