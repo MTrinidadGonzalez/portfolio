@@ -14,12 +14,17 @@ closeCertifications.addEventListener('click', ()=>{
 const videoAvatar= document.getElementById('video-avatar')
 const presentationContainerText= document.getElementById('presentation-container-text')
 const btnClosePresentation = document.getElementById('btn-close-presentation')
-videoAvatar.addEventListener('click', ()=>{
-  presentationContainerText.classList.replace( "display-none",'presentation-container-text');
 
-})
+/*videoAvatar.addEventListener('click', ()=>{
+  presentationContainerText.classList.replace( "display-none",'presentation-container-text');
+})*/
 
 btnClosePresentation.addEventListener('click', ()=>{
   presentationContainerText.classList.replace( 'presentation-container-text',"display-none");
 
+})
+
+const btnOpenAboutMe= document.getElementById('btn-open-about-me')
+btnOpenAboutMe.addEventListener('click', ()=>{
+  presentationContainerText.classList.replace( "display-none",'presentation-container-text');
 })
