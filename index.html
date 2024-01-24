@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trinidad</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="index.css">
     <!--font links-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +16,7 @@
   </head>
 <body>
   <header>
-  <div class="inicio">
+  <div class="inicio" >
   <!--title-->
   <div class="container-title">
     <span>I'm</span>
@@ -104,7 +106,7 @@
   </div>
  <section class="projects-section" id="projects-section">
   <!--project a-->
-  <div class="project">
+  <div class="project" data-aos="fade-up">
     <div class="child-project">
       <video class="video-project" type="video/mp4" muted controls>
         <source src="./assets/videos/oficioscomprimido.mp4">
@@ -129,7 +131,7 @@
     </div>
   </div>
  <!--project b-->
- <div class="project">
+ <div class="project" data-aos="fade-up">
   
   <div class="child-project">
     <p>
@@ -159,6 +161,10 @@
 </section>
  
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" ></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
