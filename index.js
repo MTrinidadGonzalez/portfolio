@@ -28,3 +28,9 @@ const btnOpenAboutMe= document.getElementById('btn-open-about-me')
 btnOpenAboutMe.addEventListener('click', ()=>{
   presentationContainerText.classList.replace( "display-none",'presentation-container-text');
 })
+
+
+//videos
+
+//const oficiosVideoId= document.getElementById('oficios-video-id')
+//const ccxVideoId = document.getElementById('ccx-video-id')
