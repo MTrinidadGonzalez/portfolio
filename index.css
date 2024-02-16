@@ -198,6 +198,8 @@ html, body{
     background-color: #0F0E20;
     border:1px solid rgb(160,170,189);
     padding: 10px;
+    height: 70%;
+    overflow-y: scroll;
 }
 .btn-close-presentation{
     border-radius: 4px;
@@ -411,7 +413,8 @@ html, body{
         transform: translate(-50%, -50%); 
         z-index: 1;
         border-radius: 5px;
-        width: 100%;
+        width: 97%;
+        height: 70%;
     }
     .img-certificado{
         transition: 0.3s;
