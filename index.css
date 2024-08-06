@@ -9,6 +9,8 @@ html, body{
     font-family: 'Sofia Sans', sans-serif;*/
     font-size: 25px;
     color: #0F0E20;
+    background-color:black ;
+    color: white;
 }
 .inicio{
     display: flex;
@@ -21,6 +23,7 @@ html, body{
     padding: 60px;
     background-color: #ffe6cc;
     color:rgb(255, 102, 0);
+    background-color:black;
 }
 .container-title{
     display: flex;
@@ -32,6 +35,7 @@ html, body{
     font-size: 35px;
     font-family: 'Playfair Display', serif;
     background-image: radial-gradient(rgb(255, 165, 0), rgb(255, 102, 0), rgb(255, 153, 51), rgb(255, 204, 102)); 
+    background-image: radial-gradient(white,rgb(7,47,79), rgb(128,55,114), rgb(185,38,1),white); 
     color: transparent;
     background-clip: text;
    -webkit-background-clip: text;
@@ -54,6 +58,7 @@ html, body{
  /*font-weight: bolder;*/
  color: royalblue;
  color: rgb(0, 0, 51);
+ color: rgb(185,38,1);
 
 
 }
@@ -111,15 +116,15 @@ html, body{
     width: 50%;
     margin: 7px;
     height: 45px;
-    background-color:rgb(255, 102, 0); 
-    border: 1px solid rgb(255, 102, 0);
-    color: #fff; 
+    background-color:rgb(128,55,114); 
+    border: 1px solid rgb(7,47,79); 
 }
 .btns-links:hover{
     cursor: pointer;
-    border: none;
-    background-color: #ff9900; 
-
+    border: none; 
+     background-color:rgb(7,47,79); 
+    border: 1px solid rgb(128,55,114);
+    color: #fff;
 }
 /***************section presentation**********/
 .container-total-sections{
@@ -144,14 +149,13 @@ html, body{
     height: 320px;
    
 }*/
+/*
 .container-img-profile{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-  /*  height: 550px;
-    width: 460px;*/
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -185,7 +189,7 @@ html, body{
     scale: 0.7;
     border-radius: 50%;
     box-shadow: 5px 5px 5px 5px white;
-}
+}*/
 .presentation-container-text{
     display: block;
     padding: 20px;
@@ -231,14 +235,13 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 90px;
+
 }
 .projects-title{
     margin: auto;
     font-family: 'Asap Condensed', sans-serif;
-    color: royalblue;
     font-weight: bolder;
-    color: rgb(0, 0, 51);
 }
 .btns-projects-div{
     display: flex;
@@ -265,8 +268,9 @@ html, body{
     display: block;
     padding-top: 90px;
     padding-bottom: 90px;
-    background-color:  royalblue;
     background-image: linear-gradient( white,#ffe6cc,#ffe6cc,#ffe6cc);
+    background-image: linear-gradient(black,rgb(7,47,79));
+
 }
 
 .project{
@@ -293,6 +297,7 @@ html, body{
   /*  padding: 20px;*/
     margin: auto;
     color: rgb(0, 0, 51);
+    color: white;
 }
 .child-project p{
     border-bottom: 1px solid white;
@@ -318,8 +323,8 @@ html, body{
         font-size: 20px;
         width: 100%;
         overflow-x: hidden;
-        background-color: white;
-        color: #0F0E20;
+       /* background-color: white;
+        color: #0F0E20;*/
     }
     /**********inicio**********/
     .container-title {
@@ -335,8 +340,8 @@ html, body{
         width: 100%;
         margin-bottom: 20px;
         padding-top: 90px;
-        background-color: #ffe6cc;
-        color:rgb(255, 102, 0);
+      /*  background-color: #ffe6cc;
+        color:rgb(255, 102, 0);*/
     }
 
     .spam-tecnologies{
@@ -358,8 +363,8 @@ html, body{
      margin-right: 8px;
      margin-left: 0px;
      /*font-weight: bolder;*/
-     color: royalblue;
-     color: rgb(0, 0, 51);
+    /* color: royalblue;
+     color: rgb(0, 0, 51);*/
     
     }
 
