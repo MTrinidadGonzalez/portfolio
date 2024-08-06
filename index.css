@@ -21,8 +21,6 @@ html, body{
     margin-top: 0%;
     width: 100%;
     padding: 60px;
-    background-color: #ffe6cc;
-    color:rgb(255, 102, 0);
     background-color:black;
 }
 .container-title{
@@ -34,8 +32,7 @@ html, body{
     font-weight: bolder;  
     font-size: 35px;
     font-family: 'Playfair Display', serif;
-    background-image: radial-gradient(rgb(255, 165, 0), rgb(255, 102, 0), rgb(255, 153, 51), rgb(255, 204, 102)); 
-    background-image: radial-gradient(white,rgb(7,47,79), rgb(128,55,114), rgb(185,38,1),white); 
+    background-image: radial-gradient(rgb(128,55,114), rgb(185,38,1),rgb(128,55,114)); 
     color: transparent;
     background-clip: text;
    -webkit-background-clip: text;
@@ -55,9 +52,6 @@ html, body{
 }
 .technology-icons-container *{
  margin-left: 30px;
- /*font-weight: bolder;*/
- color: royalblue;
- color: rgb(0, 0, 51);
  color: rgb(185,38,1);
 
 
@@ -149,7 +143,7 @@ html, body{
     height: 320px;
    
 }*/
-/*
+/*esto estaba comentado*/
 .container-img-profile{
     display: flex;
     flex-direction: column;
@@ -189,7 +183,7 @@ html, body{
     scale: 0.7;
     border-radius: 50%;
     box-shadow: 5px 5px 5px 5px white;
-}*/
+}/*estaba comentado hasta aqui*/
 .presentation-container-text{
     display: block;
     padding: 20px;
